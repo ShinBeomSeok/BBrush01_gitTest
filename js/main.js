@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["신범석 입니다.", "웹디자이너 입니다.", "웹퍼블리셔 입니다."],
-      typeSpeed: 100,
+      strings: ["신범석 이라고 합니다.", "퍼블리싱 가능한 웹디자이너 입니다."],
+      typeSpeed: 150,
       loop: true,
     });
   });
