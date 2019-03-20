@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["신범석 이라고 합니다.", "퍼블리싱 가능한 웹디자이너 입니다."],
+      strings: ["신범석 이라고 합니다.", "퍼블리싱도 같이하는 웹디자이너 입니다."],
       typeSpeed: 150,
       loop: true,
     });
