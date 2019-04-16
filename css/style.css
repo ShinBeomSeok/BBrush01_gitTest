@@ -143,8 +143,9 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 110px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: #eff1f0;
 }
 
 .paddsections {
@@ -393,7 +394,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 0px;
-  background-color: #e7e7e7;
+  background-color: #fff;
 }
 
 #portfolio .portfolio-list {
@@ -575,7 +576,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #066944;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -637,6 +638,12 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #icon{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 87px;
+  padding-bottom: 87px;
+  background-color: #f7f7f7;
+}
+
+#pic{
+  padding-top: 87px;
+  padding-bottom: 87px;
 }
