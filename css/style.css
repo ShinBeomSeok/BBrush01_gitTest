@@ -143,9 +143,9 @@ p {
 }
 
 .paddsection {
-  padding-top: 40px;
-  padding-bottom: 70px;
-  background-color: #eff1f0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f4f4f4;
 }
 
 .paddsections {
@@ -394,7 +394,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 0px;
-  background-color: #fff;
+  background-color: #dadada;
 }
 
 #portfolio .portfolio-list {
@@ -422,6 +422,10 @@ nav ul li a {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-list .nav li:last-child{
+  margin-right: 0;
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
@@ -576,7 +580,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #066944;
+  background: #063e29;
   padding-top: 50px;
   padding-bottom: 50px;
 }
