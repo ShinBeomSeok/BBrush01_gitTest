@@ -1,3 +1,23 @@
+/* Media query 2024-10-24 */
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+
+
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
@@ -575,6 +595,34 @@ nav ul li a {
   font-size: 13px;
 }
 
+/* 2024-10-24 */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#homeButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#homeButton:hover {
+    background-color: #0056b3;
+}
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
@@ -637,6 +685,7 @@ nav ul li a {
 }
 
 
+
 /*-----------------------------------------------------------------------------------*/
 /*  Icon
 /*-----------------------------------------------------------------------------------*/
@@ -651,3 +700,4 @@ nav ul li a {
   padding-top: 87px;
   padding-bottom: 87px;
 }
+=======
