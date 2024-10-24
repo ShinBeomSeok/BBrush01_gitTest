@@ -1,3 +1,23 @@
+/* Media query 2024-10-24 */
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+
+
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
